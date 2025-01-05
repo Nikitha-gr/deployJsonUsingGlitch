@@ -1,21 +1,433 @@
 {
   "users": [
     {
-      "username": "Nikitha",
-      "email": "nikitha14.gr@gmail.com",
-      "password": "1402",
-      "gender": "female",
-      "mobile": "7848988800",
+      "email": "nikitha@gmail.com",
+      "password": "abcdefg",
+      "products": [
+        {
+          "productId": 2,
+          "image": "./Assets/under_50/product2.jpg",
+          "title": "Crocs Kids",
+          "description": "Classic Rain Boot(Little Kid/Big Kid)",
+          "price": 24.98,
+          "category": "kids"
+        },
+        {
+          "productId": 8,
+          "image": "./Assets/under_50/product8.jpg",
+          "title": "SKECHERS KIDS 1",
+          "description": "Bounder 403739L(Little Kid/Big Kid)",
+          "price": 49.95,
+          "category": "kids"
+        },
+        {
+          "productId": 9,
+          "image": "./Assets/under_50/product9.jpg",
+          "title": "Lilly Pulitzer Kids 1",
+          "description": "Little Lilly Classic Shift",
+          "price": 40.6,
+          "category": "kids"
+        },
+        {
+          "productId": 10,
+          "image": "./Assets/under_50/product10.jpg",
+          "title": "Polo Ralph Lauren Kids 1",
+          "description": "Striped Waffle Cotton Long Sleeve Tee",
+          "price": 17.5,
+          "category": "kids"
+        }
+      ],
       "id": 1
     },
     {
-      "username": "Nisha",
-      "email": "nisha@gmail.com",
-      "password": "1708",
-      "gender": "female",
-      "mobile": "9876543210",
+      "email": "nikitha14.gr@gmail.com",
+      "password": "abcdefg",
+      "products": [],
       "id": 2
+    },
+    {
+      "email": "nisha@gmail.com",
+      "password": "98765",
+      "products": [
+        {
+          "productId": 1,
+          "image": "./Assets/under_50/product1.jpg",
+          "title": "Crocs",
+          "description": "Classic Lined Clog",
+          "price": 35,
+          "category": "adults"
+        },
+        {
+          "productId": 2,
+          "image": "./Assets/under_50/product2.jpg",
+          "title": "Crocs Kids",
+          "description": "Classic Rain Boot(Little Kid/Big Kid)",
+          "price": 24.98,
+          "category": "kids"
+        },
+        {
+          "productId": 3,
+          "image": "./Assets/under_50/product3.jpg",
+          "title": "SKECHERS",
+          "description": "Eden LX Slip-Ins",
+          "price": 50,
+          "category": "adults"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "email": "sarika@gmail.com",
+      "password": "abcdefg",
+      "products": [
+        {
+          "productId": 1,
+          "image": "./Assets/under_50/product1.jpg",
+          "title": "Crocs",
+          "description": "Classic Lined Clog",
+          "price": 35,
+          "category": "adults"
+        },
+        {
+          "productId": 2,
+          "image": "./Assets/under_50/product2.jpg",
+          "title": "Crocs Kids",
+          "description": "Classic Rain Boot(Little Kid/Big Kid)",
+          "price": 24.98,
+          "category": "kids"
+        },
+        {
+          "productId": 3,
+          "image": "./Assets/under_50/product3.jpg",
+          "title": "SKECHERS",
+          "description": "Eden LX Slip-Ins",
+          "price": 50,
+          "category": "adults"
+        }
+      ],
+      "id": 4
     }
   ],
-  "todos": [  ]
+  "products": [
+    {
+      "productId": 1,
+      "image": "./Assets/under_50/product1.jpg",
+      "title": "Crocs",
+      "description": "Classic Lined Clog",
+      "price": 35,
+      "category": "adults"
+    },
+    {
+      "productId": 2,
+      "image": "./Assets/under_50/product2.jpg",
+      "title": "Crocs Kids",
+      "description": "Classic Rain Boot(Little Kid/Big Kid)",
+      "price": 24.98,
+      "category": "kids"
+    },
+    {
+      "productId": 3,
+      "image": "./Assets/under_50/product3.jpg",
+      "title": "SKECHERS",
+      "description": "Eden LX Slip-Ins",
+      "price": 50,
+      "category": "adults"
+    },
+    {
+      "productId": 4,
+      "image": "./Assets/under_50/product4.jpg",
+      "title": "Kendra Scott 1",
+      "description": "Lyle Snake Stud Earrings",
+      "price": 46,
+      "category": "adults"
+    },
+    {
+      "productId": 5,
+      "image": "./Assets/under_50/product5.jpg",
+      "title": "Dr.Scholl's",
+      "description": "Madison Jane",
+      "price": 49,
+      "category": "adults"
+    },
+    {
+      "productId": 6,
+      "image": "./Assets/under_50/product6.jpg",
+      "title": "NIC+ZOE",
+      "description": "Meadow Mix 4-Way Cardigan",
+      "price": 47.4,
+      "category": "adults"
+    },
+    {
+      "productId": 7,
+      "image": "./Assets/under_50/product7.jpg",
+      "title": "Steve Madden",
+      "description": "Rainier Booties",
+      "price": 29.99,
+      "category": "adults"
+    },
+    {
+      "productId": 8,
+      "image": "./Assets/under_50/product8.jpg",
+      "title": "SKECHERS KIDS 1",
+      "description": "Bounder 403739L(Little Kid/Big Kid)",
+      "price": 49.95,
+      "category": "kids"
+    },
+    {
+      "productId": 9,
+      "image": "./Assets/under_50/product9.jpg",
+      "title": "Lilly Pulitzer Kids 1",
+      "description": "Little Lilly Classic Shift",
+      "price": 40.6,
+      "category": "kids"
+    },
+    {
+      "productId": 10,
+      "image": "./Assets/under_50/product10.jpg",
+      "title": "Polo Ralph Lauren Kids 1",
+      "description": "Striped Waffle Cotton Long Sleeve Tee",
+      "price": 17.5,
+      "category": "kids"
+    },
+    {
+      "productId": 11,
+      "image": "./Assets/under_50/product11.jpg",
+      "title": "Polo Ralph Lauren Kids 2",
+      "description": "Ribbed Cotton-Modal Turtleneck",
+      "price": 23.7,
+      "category": "kids"
+    },
+    {
+      "productId": 12,
+      "image": "./Assets/under_50/product12.jpg",
+      "title": "Polo Ralph Lauren Kids 3",
+      "description": "Polo Bear Cable-Knit Swweater",
+      "price": 35.7,
+      "category": "kids"
+    },
+    {
+      "productId": 13,
+      "image": "./Assets/under_50/product13.jpg",
+      "title": "Polo Ralph Lauren Kids 4",
+      "description": "Plaid Cotton Poplin Shirt",
+      "price": 35.59,
+      "category": "kids"
+    },
+    {
+      "productId": 14,
+      "image": "./Assets/under_50/product14.jpg",
+      "title": "Lacoste Kids",
+      "description": "Club Crew Neck Fleece Sweatshirt",
+      "price": 32,
+      "category": "kids"
+    },
+    {
+      "productId": 15,
+      "image": "./Assets/under_50/product15.jpg",
+      "title": "Tommy Hilfiger Kids",
+      "description": "Tommy Pieced Puffer",
+      "price": 30,
+      "category": "kids"
+    },
+    {
+      "productId": 16,
+      "image": "./Assets/under_50/product16.jpg",
+      "title": "Blowfish Malibu",
+      "description": "Wave Zip Slip-On",
+      "price": 28,
+      "category": "adults"
+    },
+    {
+      "productId": 17,
+      "image": "./Assets/under_50/product17.jpg",
+      "title": "Kendra Scott 2",
+      "description": "Abbie Beaded Necklace",
+      "price": 45.5,
+      "category": "adults"
+    },
+    {
+      "productId": 18,
+      "image": "./Assets/under_50/product18.jpg",
+      "title": "SKECHERS KIDS 2",
+      "description": "Snuggle Sneaks",
+      "price": 31.47,
+      "category": "kids"
+    },
+    {
+      "productId": 19,
+      "image": "./Assets/under_50/product19.jpg",
+      "title": " SKECHERS KIDS 3",
+      "description": "Microspec Max Advance",
+      "price": 39.28,
+      "category": "kids"
+    },
+    {
+      "productId": 20,
+      "image": "./Assets/under_50/product20.jpg",
+      "title": "Lilly Pulitzer Kids 2",
+      "description": "Lilly Knit Shift",
+      "price": 37.7,
+      "category": "kids"
+    },
+    {
+      "productId": 21,
+      "image": "./Assets/under_100/product1.jpg",
+      "title": "New Balance Classics 1",
+      "description": "997R",
+      "price": 99.99,
+      "category": "adults"
+    },
+    {
+      "productId": 22,
+      "image": "./Assets/under_100/product2.jpg",
+      "title": "SKECHERS Work 1",
+      "description": "Carbix- Niyla Comp Toe",
+      "price": 66.5,
+      "category": "adults"
+    },
+    {
+      "productId": 23,
+      "image": "./Assets/under_100/product3.jpg",
+      "title": "Timberland PRO 1",
+      "description": "Setra Knit Composite Safety Toe",
+      "price": 72,
+      "category": "adults"
+    },
+    {
+      "productId": 24,
+      "image": "./Assets/under_100/product4.jpg",
+      "title": "Puma Safety",
+      "description": "Kickflip Low SD",
+      "price": 56,
+      "category": "adults"
+    },
+    {
+      "productId": 25,
+      "image": "./Assets/under_100/product5.jpg",
+      "title": "Timberland PRO 2",
+      "description": "Setra Composite Safety Toe",
+      "price": 80,
+      "category": "adults"
+    },
+    {
+      "productId": 26,
+      "image": "./Assets/under_100/product6.jpg",
+      "title": "SKECHERS Work 2",
+      "description": "Puxal ESD Composite Toe",
+      "price": 55,
+      "category": "adults"
+    },
+    {
+      "productId": 27,
+      "image": "./Assets/under_100/product7.jpg",
+      "title": "SKECHERS Work 3",
+      "description": "D'Lux Journey Comp Toe",
+      "price": 94.95,
+      "category": "adults"
+    },
+    {
+      "productId": 28,
+      "image": "./Assets/under_100/product8.jpg",
+      "title": "Adidas Running",
+      "description": "Questar 3 Running Shoes",
+      "price": 79.95,
+      "category": "adults"
+    },
+    {
+      "productId": 29,
+      "image": "./Assets/under_100/product9.jpg",
+      "title": "SKECHERS Work 4",
+      "description": "Mccoll Comp Toe",
+      "price": 63,
+      "category": "adults"
+    },
+    {
+      "productId": 30,
+      "image": "./Assets/under_100/product10.jpg",
+      "title": "SKECHERS Work 5",
+      "description": "Max Cushioning Arch fit SR - Nixx",
+      "price": 99.95,
+      "category": "adults"
+    },
+    {
+      "productId": 31,
+      "image": "./Assets/under_100/product11.jpg",
+      "title": "New Balance Classics 2",
+      "description": "U574v1",
+      "price": 77.39,
+      "category": "adults"
+    },
+    {
+      "productId": 32,
+      "image": "./Assets/under_100/product12.jpg",
+      "title": "SKECHERS Work 5",
+      "description": "Joggernaut Comp Toe",
+      "price": 94.95,
+      "category": "adults"
+    },
+    {
+      "productId": 33,
+      "image": "./Assets/under_100/product13.jpg",
+      "title": "Carhartt",
+      "description": "Force 3 EH Nano Toe Work Sneaker",
+      "price": 77.99,
+      "category": "adults"
+    },
+    {
+      "productId": 34,
+      "image": "./Assets/under_100/product14.jpg",
+      "title": "New Balance Classics 3",
+      "description": "327 Women's",
+      "price": 99.95,
+      "category": "adults"
+    },
+    {
+      "productId": 35,
+      "image": "./Assets/under_100/product15.jpg",
+      "title": "KEEN Utility",
+      "description": "Vista Energy(Comp Toe)",
+      "price": 52,
+      "category": "adults"
+    },
+    {
+      "productId": 36,
+      "image": "./Assets/under_100/product16.jpg",
+      "title": "Bogs",
+      "description": "Cypress Lace Composite Toe",
+      "price": 75,
+      "category": "adults"
+    },
+    {
+      "productId": 37,
+      "image": "./Assets/under_100/product17.jpg",
+      "title": "Nautilus Safety Footwear",
+      "description": "Day One Safety Tempest CT",
+      "price": 55.5,
+      "category": "adults"
+    },
+    {
+      "productId": 38,
+      "image": "./Assets/under_100/product18.jpg",
+      "title": "New Balance Kids",
+      "description": "Big Kid",
+      "price": 69.95,
+      "category": "kids"
+    },
+    {
+      "productId": 39,
+      "image": "./Assets/under_100/product19.jpg",
+      "title": "Vans Kids",
+      "description": "Old Skool V(Infant/Toddler)",
+      "price": 55,
+      "category": "kids"
+    },
+    {
+      "productId": 40,
+      "image": "./Assets/under_100/product20.jpg",
+      "title": "Crocs",
+      "description": "Mega Crush Clog",
+      "price": 78.65,
+      "category": "kids"
+    }
+  ]
 }
